@@ -97,12 +97,12 @@ body {
 
 @keyframes animateBall {
   0% {
-    transform: translateY(-100%) translateX(-30px);
+    transform: translateY(-100%) translateX(-20px);
   }
   50% {
     transform: translateY(-100%) translateX(220px);
   }
   100% {
-    transform: translateY(-100%) translateX(-30px);
+    transform: translateY(-100%) translateX(-20px);
   }
 }
