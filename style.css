@@ -20,7 +20,20 @@ body {
   position: relative;
   width: 200px;
   height: 200px;
+  animation: animate 4s ease-in-out infinite;
   // background: #f00;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(-50deg);
+  }
+  100% {
+    transform: rotate(50deg);
+  }
 }
 
 .container .loader::before {
