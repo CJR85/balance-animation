@@ -3,3 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1c1f2f;
+}
+
+.container {
+  position: relative;
+}
+
+.container .loader {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  // background: #f00;
+}
+
+.container .loader::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 200px;
+  height: 100px;
+  background: #06c8f0;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
